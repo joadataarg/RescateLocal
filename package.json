@@ -1,0 +1,23 @@
+{
+  "name": "rescatelocal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma de coordinación de excedentes alimentarios — MVP",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "drizzle-orm": "^0.39.1",
+    "hono": "^4.13.16"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250501.0",
+    "drizzle-kit": "^0.30.4",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.142.0"
+  }
+}

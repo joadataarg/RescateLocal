@@ -1,0 +1,6 @@
+# Local Pi runtime state
+.atl/
+
+# Environment variables (never commit credentials)
+.dev.vars
+.env
