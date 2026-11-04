@@ -4,7 +4,6 @@ compatibility_date = "2025-05-01"
 
 [vars]
 APP_NAME = "RescateLocal"
-DATABASE_URL = "postgresql://neondb_owner:npg_2NSqMzBAZgP7@ep-dry-king-bdraxy0g-pooler.c-8.us-east-2.aws.neon.tech/neondb?channel_binding=require&sslmode=require"
 
 [triggers]
 crons = ["0 0 * *"]
