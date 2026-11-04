@@ -6,7 +6,7 @@ compatibility_date = "2025-05-01"
 APP_NAME = "RescateLocal"
 
 [triggers]
-crons = ["0 0 * *"]
+crons = ["0 0 * * *"]
 
 [observability]
 enabled = true
